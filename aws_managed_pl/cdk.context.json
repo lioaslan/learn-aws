@@ -1,0 +1,38 @@
+{
+  "vpc-provider:account=418714370495:filter.isDefault=true:filter.vpc-id=vpc-21d8cd46:region=ap-southeast-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-21d8cd46",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-de0de396",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "ap-southeast-1a",
+            "routeTableId": "rtb-1d69f07b"
+          },
+          {
+            "subnetId": "subnet-d9b34abf",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "ap-southeast-1b",
+            "routeTableId": "rtb-1d69f07b"
+          },
+          {
+            "subnetId": "subnet-e33683ba",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "ap-southeast-1c",
+            "routeTableId": "rtb-1d69f07b"
+          }
+        ]
+      }
+    ]
+  },
+  "ami:account=418714370495:filters.image-type.0=machine:filters.name.0=bitnami-nginx-1.20.2-17-r08-linux-debian-10-x86_64-hvm-ebs-nami-f5774628-e459-457a-b058-3b513caefdee:filters.state.0=available:region=ap-southeast-1": "ami-07856f3f6b387ee03",
+  "hosted-zone:account=418714370495:domainName=ultorex.org:region=ap-southeast-1": {
+    "Id": "/hostedzone/Z03309142ACSYFWC4KYU3",
+    "Name": "ultorex.org."
+  }
+}
